@@ -1,0 +1,22 @@
+{
+  "name": "YangLib",
+  "version": "0.1.0",
+  "summary": "A short description of YangLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangjun1872/YangLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangjun1872": "Adam_jyang@vipabc.com"
+  },
+  "source": {
+    "git": "https://github.com/yangjun1872/YangLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YangLib/Classes/**/*"
+}
