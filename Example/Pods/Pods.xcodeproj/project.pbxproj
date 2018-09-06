@@ -79,8 +79,10 @@
 		5EACBE12AE5EDE03F34B29A300201F57 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7DDD4A7CE0636458E013320B3DCFC2 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = D148E142A756A0CD8BA055B657862814 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660AEC1C2140054B0039C868 /* Test(version update).h in Headers */ = {isa = PBXBuildFile; fileRef = 660AEC1A2140054A0039C868 /* Test(version update).h */; };
-		660AEC1D2140054B0039C868 /* Test(version update).m in Sources */ = {isa = PBXBuildFile; fileRef = 660AEC1B2140054A0039C868 /* Test(version update).m */; };
+		660AEC242140C83C0039C868 /* Test(branch).m in Sources */ = {isa = PBXBuildFile; fileRef = 660AEC222140C83C0039C868 /* Test(branch).m */; };
+		660AEC252140C83C0039C868 /* Test(branch).h in Headers */ = {isa = PBXBuildFile; fileRef = 660AEC232140C83C0039C868 /* Test(branch).h */; };
+		660AEC262140C8460039C868 /* Test(version update).h in Headers */ = {isa = PBXBuildFile; fileRef = 660AEC1A2140054A0039C868 /* Test(version update).h */; };
+		660AEC272140C8490039C868 /* Test(version update).m in Sources */ = {isa = PBXBuildFile; fileRef = 660AEC1B2140054A0039C868 /* Test(version update).m */; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		67538739C74EEC569177E7F8FEEF4B2F /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		679BE4E4902731A5B298DCA889C7503A /* YangLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E39DC2BF87913D7D0738AD954373B8 /* YangLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -305,6 +307,8 @@
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		660AEC1A2140054A0039C868 /* Test(version update).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test(version update).h"; path = "YangLib/Classes/Test(version update).h"; sourceTree = "<group>"; };
 		660AEC1B2140054A0039C868 /* Test(version update).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Test(version update).m"; path = "YangLib/Classes/Test(version update).m"; sourceTree = "<group>"; };
+		660AEC222140C83C0039C868 /* Test(branch).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Test(branch).m"; path = "YangLib/Classes/Test(branch).m"; sourceTree = "<group>"; };
+		660AEC232140C83C0039C868 /* Test(branch).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Test(branch).h"; path = "YangLib/Classes/Test(branch).h"; sourceTree = "<group>"; };
 		671748C25469254D5FC599BE5642B248 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		67874FAF22E123BEC8BAB08F73110FB9 /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
@@ -840,6 +844,8 @@
 				1CCA2CFAD7129733C9EFB74E983779D7 /* Test(create library).m */,
 				660AEC1A2140054A0039C868 /* Test(version update).h */,
 				660AEC1B2140054A0039C868 /* Test(version update).m */,
+				660AEC232140C83C0039C868 /* Test(branch).h */,
+				660AEC222140C83C0039C868 /* Test(branch).m */,
 				63411A0099A4977ABD3A6EA0CBE318AA /* Pod */,
 				40E2E6355EA03C3EE9674275EF9042FF /* Support Files */,
 			);
@@ -875,6 +881,8 @@
 			files = (
 				3A84A59B54B964E8C9875A73D4F1ED99 /* Test(create library).h in Headers */,
 				679BE4E4902731A5B298DCA889C7503A /* YangLib-umbrella.h in Headers */,
+				660AEC262140C8460039C868 /* Test(version update).h in Headers */,
+				660AEC252140C83C0039C868 /* Test(branch).h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,7 +932,6 @@
 				5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */,
 				B6C2455D113AD5144615C2C2CB3CDBAA /* EXPMatchers+postNotification.h in Headers */,
 				5C600EC03D65A0C203700F6608C96147 /* EXPMatchers+raise.h in Headers */,
-				660AEC1C2140054B0039C868 /* Test(version update).h in Headers */,
 				F6BA14E3E5C97B09C234CD09F3169A4F /* EXPMatchers+raiseWithReason.h in Headers */,
 				03E282BECDEF8859EDA1A76C53278839 /* EXPMatchers+respondTo.h in Headers */,
 				056354E3049457613A27C69AC1A9FC1D /* EXPMatchers.h in Headers */,
@@ -1209,8 +1216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660AEC242140C83C0039C868 /* Test(branch).m in Sources */,
 				DE6F4E314DE708277A7A8EE13635EA3E /* Test(create library).m in Sources */,
 				1920A8540099D384B7D3168ACF9DA514 /* YangLib-dummy.m in Sources */,
+				660AEC272140C8490039C868 /* Test(version update).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1297,7 +1306,6 @@
 				22FD7BFFCB02A9102FEFECC9D92E4D40 /* EXPMatchers+respondTo.m in Sources */,
 				A0404E9CB88F71789F53FF9B14C89EEC /* EXPUnsupportedObject.m in Sources */,
 				21468400DDC9407495ED183B593917BC /* NSValue+Expecta.m in Sources */,
-				660AEC1D2140054B0039C868 /* Test(version update).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
