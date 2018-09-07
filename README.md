@@ -30,6 +30,6 @@ YangLib is available under the MIT license. See the LICENSE file for more info.
 
 ## 相关链接
 
-制作私有库: https://www.jianshu.com/p/107cc74847ab
-Podfile语法: https://www.jianshu.com/p/8a0fd6150159
+制作私有库: https://www.jianshu.com/p/107cc74847ab  
+Podfile语法: https://www.jianshu.com/p/8a0fd6150159  
 subspec: https://www.jianshu.com/p/a96c749bad92
