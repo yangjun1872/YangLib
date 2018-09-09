@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YangLib'
-  s.version          = '0.4.0'
-  s.summary          = 'test subspec'
+  s.version          = '0.5.0'
+  s.summary          = 'test publice library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  test subspec, test subspec, test subspec
+  test publice library, test publice library, test publice library
                        DESC
 
   s.homepage         = 'https://github.com/yangjun1872/YangLib'
@@ -46,6 +46,10 @@ Pod::Spec.new do |s|
   
   s.subspec 'Subspec2' do |subspec2|
       subspec2.source_files = 'YangLib/Classes/Subspec2/**/*'
+  end
+  
+  s.subspec 'Subspec3' do |subspec3|
+      subspec3.source_files = 'YangLib/Classes/Subspec3/**/*'
   end
   
 end

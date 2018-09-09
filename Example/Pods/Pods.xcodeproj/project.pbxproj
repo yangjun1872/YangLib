@@ -137,6 +137,8 @@
 		CC49249AC66AAE89EB125A4D5B03AA19 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D32EB42D818B38915D83A017A5695EA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE91FA817A566E843B5460DDCFA7BD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBCC94FB5AC05773E7D4C0CB9585A7 /* Foundation.framework */; };
 		D330E39C1FBAACEFA743485855A4DFE7 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4209F092144CB3C00647629 /* Test(public library).h in Headers */ = {isa = PBXBuildFile; fileRef = D4209F072144CB3C00647629 /* Test(public library).h */; };
+		D4209F0A2144CB3C00647629 /* Test(public library).m in Sources */ = {isa = PBXBuildFile; fileRef = D4209F082144CB3C00647629 /* Test(public library).m */; };
 		D46363C6BEA029C05D489F9C3CA03986 /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
 		D8829338DEC990F445051167D73791A4 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D8B14DF2E9AA1FD069A42D8AAE2D08D0 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -387,6 +389,8 @@
 		D24C93A44A823E785EE91D78394D63B9 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		D2F336ECC66909E2FC05C8E3D376CF12 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		D4209F072144CB3C00647629 /* Test(public library).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test(public library).h"; sourceTree = "<group>"; };
+		D4209F082144CB3C00647629 /* Test(public library).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test(public library).m"; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		D63F50F23D02055A4562FE06D59928DE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
@@ -784,6 +788,16 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
+		D4209F062144CB1700647629 /* Subspec3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4209F072144CB3C00647629 /* Test(public library).h */,
+				D4209F082144CB3C00647629 /* Test(public library).m */,
+			);
+			name = Subspec3;
+			path = YangLib/Classes/Subspec3;
+			sourceTree = "<group>";
+		};
 		D444F89BC8BA24BC0761D553BC8F0231 /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -858,6 +872,7 @@
 			children = (
 				660AEC28214289430039C868 /* Subspec1 */,
 				660AEC2B214289430039C868 /* Subspec2 */,
+				D4209F062144CB1700647629 /* Subspec3 */,
 				63411A0099A4977ABD3A6EA0CBE318AA /* Pod */,
 				40E2E6355EA03C3EE9674275EF9042FF /* Support Files */,
 			);
@@ -892,6 +907,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				660AEC2E214289430039C868 /* Test(create library).h in Headers */,
+				D4209F092144CB3C00647629 /* Test(public library).h in Headers */,
 				660AEC30214289430039C868 /* Test(version update).h in Headers */,
 				679BE4E4902731A5B298DCA889C7503A /* YangLib-umbrella.h in Headers */,
 			);
@@ -1229,6 +1245,7 @@
 			files = (
 				1920A8540099D384B7D3168ACF9DA514 /* YangLib-dummy.m in Sources */,
 				660AEC2F214289430039C868 /* Test(create library).m in Sources */,
+				D4209F0A2144CB3C00647629 /* Test(public library).m in Sources */,
 				660AEC31214289430039C868 /* Test(version update).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
