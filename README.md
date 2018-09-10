@@ -33,5 +33,5 @@ YangLib is available under the MIT license. See the LICENSE file for more info.
 制作私有库: https://www.jianshu.com/p/107cc74847ab
 制作公共库: https://www.jianshu.com/p/fdc74f7d516b
 Podfile语法: https://www.jianshu.com/p/8a0fd6150159
-制作subspec: https://www.jianshu.com/p/a96c749bad92   
+制作subspec: https://www.jianshu.com/p/a96c749bad92
 
