@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YangLib'
-  s.version          = '0.6.0'
-  s.summary          = 'test public library 2'
+  s.version          = '0.7.0'
+  s.summary          = 'delete classes file'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  test publice library 2, test publice library 2, test publice library 2
+  delete classes file, delete classes file, delete classes file
                        DESC
 
   s.homepage         = 'https://github.com/yangjun1872/YangLib'
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YangLib/Classes/**/*'
+  s.source_files = 'YangLib/**/*'
   
   # s.resource_bundles = {
   #   'YangLib' => ['YangLib/Assets/*.png']
@@ -41,15 +41,15 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.subspec 'Subspec1' do |subspec1|
-      subspec1.source_files = 'YangLib/Classes/Subspec1/**/*'
+      subspec1.source_files = 'YangLib/Subspec1/**/*'
   end
   
   s.subspec 'Subspec2' do |subspec2|
-      subspec2.source_files = 'YangLib/Classes/Subspec2/**/*'
+      subspec2.source_files = 'YangLib/Subspec2/**/*'
   end
   
   s.subspec 'Subspec3' do |subspec3|
-      subspec3.source_files = 'YangLib/Classes/Subspec3/**/*'
+      subspec3.source_files = 'YangLib/Subspec3/**/*'
   end
   
 end

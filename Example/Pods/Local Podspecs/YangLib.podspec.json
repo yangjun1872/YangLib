@@ -1,8 +1,8 @@
 {
   "name": "YangLib",
-  "version": "0.5.0",
-  "summary": "test public library",
-  "description": "test publice library, test publice library, test publice library",
+  "version": "0.6.0",
+  "summary": "test public library 2",
+  "description": "test publice library 2, test publice library 2, test publice library 2",
   "homepage": "https://github.com/yangjun1872/YangLib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yangjun1872/YangLib.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "8.0"
