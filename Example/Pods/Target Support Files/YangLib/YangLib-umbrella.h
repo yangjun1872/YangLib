@@ -11,6 +11,8 @@
 #endif
 
 #import "Test(create library).h"
+#import "Test(version update).h"
+#import "Test(public library).h"
 
 FOUNDATION_EXPORT double YangLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char YangLibVersionString[];

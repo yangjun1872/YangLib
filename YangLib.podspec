@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YangLib/**/*'
+  s.source_files = 'YangLib/Classes/**/*'
   
   # s.resource_bundles = {
   #   'YangLib' => ['YangLib/Assets/*.png']
@@ -41,15 +41,15 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.subspec 'Subspec1' do |subspec1|
-      subspec1.source_files = 'YangLib/Subspec1/**/*'
+      subspec1.source_files = 'YangLib/Classes/Subspec1/**/*'
   end
   
   s.subspec 'Subspec2' do |subspec2|
-      subspec2.source_files = 'YangLib/Subspec2/**/*'
+      subspec2.source_files = 'YangLib/Classes/Subspec2/**/*'
   end
   
   s.subspec 'Subspec3' do |subspec3|
-      subspec3.source_files = 'YangLib/Subspec3/**/*'
+      subspec3.source_files = 'YangLib/Classes/Subspec3/**/*'
   end
   
 end
