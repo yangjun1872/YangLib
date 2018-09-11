@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "Test(create library).h"
-#import "Test(version update).h"
-#import "Test(public library).h"
+#import "header.h"
 #import "Test(create library).h"
 #import "Test(version update).h"
 #import "Test(public library).h"
